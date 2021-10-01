@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./mytodo.css" />
+    <title>Kenny Todo App</title>
+  </head>
+  <body>
+    <h1 class="heading"><span>ToDo</span> List</h1>
+    <div class="top-container">
+      <div class="form">
+        <input
+          type="text"
+          name="todo"
+          class="input"
+          autocomplete="off"
+          required autofocus
+        />
+        <label for="todo" class="label-box"
+          ><span class="label-text">Enter Item</span></label
+        >
+      </div>
+
+      <button class="addBtn">Add</button>
+    </div>
+
+    <section class="list-container"></section>
+    <section class="displayRecord"></section>
+
+    <div class="search-container">
+      <input type="text" class="search" placeholder="Enter Your List Name..." />
+      <button class="searchBtn">Search</button>
+      <button class="saveBtn">Save</button>
+    </div>
+
+    <button class="closeBtn">Close</button>
+
+    <footer class="foot-message">
+      KennyTech &copy; 2021 || All Rights Reserved
+    </footer>
+    <script src="./mytodo.js"></script>
+  </body>
+</html>
